@@ -1,15 +1,17 @@
 
 
-/*Black Nav bar*/
+/*Black Nav bar (<nav>) */
 nav {
 	height: 48px;
 	width: 100%;
 	position: fixed;
-	background-color: rgb(50, 50, 50);
+	background-color: rgba(0, 0, 0, .8);
 	text-align: center;
+	/*opacity: .95;*/
+	z-index: 99;
 }
 
-/*The list in the black Nav Bar*/
+/*The list <ul> in the black Nav Bar*/
 ul {
 	/*border: 1px solid yellow;*/
 	display: block;
@@ -18,7 +20,7 @@ ul {
 	padding: .9%;
 }
 
-/* The words and icons in the list in the Black Nav Bar */
+/* The words and icons in the list (<li>) in the Black Nav Bar */
 ul li {
 	/*border: 1px solid red;*/
 	display: inline;
@@ -33,6 +35,7 @@ ul li i {
 	font-size: 23px;
 }
 
+/* This will Apply to any element of <section>, it applies to EVERY <section> element*/
 section {
 	text-align: center;
 	height: 580px;
@@ -56,20 +59,26 @@ section {
 
 /* Notice how using a class to style two similar sections is used here, below. The iPhone X and iPad text have the same styling, so why not use one class for both sections!?!*/
 
-/*Hheading for iPhone X and iPad*/
+/*Notice how SPECIFIC the CSS seletors are. This allows us to NOT create a CLASS for every single element we want to style*/
+
+/*Heading for iPhone X and iPad*/
 .section-info h1 {
 	font-size: 55px;
 	font-weight: 600;
 }
 
-/* The learn more and Buy links under iPhone X and iPad*/
+.section-info h3 {
+	font-weight: 300;
+}
+
+/* The Learn more and Buy links under iPhone X and iPad*/
 .section-info a {
 	font-size: 20px;
 	margin: 10px;
 	font-weight: 300;
 }
 
-/* The little > arrows next to the a links*/
+/* The little ">" arrows next to the <a> links*/
 .section-info a i {
 	font-size: 15px;
 	padding-left: 5px;
@@ -82,7 +91,7 @@ section {
 
 /*************** iPad Section ************************/
 
-/* The ipad section element*/
+/* The ipad <section> element*/
 #ipad {
 	background-color: rgba(245, 245, 245);
 	padding-top: 4%;
@@ -101,7 +110,38 @@ section {
 
 
 
+/*************** MacBook Pro Section ************************/
 
+/* The macbookpro <section> element*/
+#macbookpro {
+	background-color: rgba(19, 18, 24);
+	padding-top: 4%;
+}
+
+/*The image of the ipad with the Apple pencil*/
+#macbookpro img {
+	position: relative;
+	top: 14px;
+	width: 90%;
+	height: 70%;
+}
+
+#macbookpro h1 {
+	color: #fff;
+}
+
+#macbookpro h3 {
+	color: #fff;
+}
+
+#macbookpro a {
+	color: #fff;
+}
+
+
+
+
+/*************** MacBook Pro Section ************************/
 
 
 
