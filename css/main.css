@@ -35,11 +35,14 @@ ul li i {
 
 section {
 	text-align: center;
+	height: 580px;
+	margin-bottom: 15px;
 }
+
+/********** iPhone-x Section *************/
 
 /* The first section with the iphone x*/
 #iphone-x {
-	height: 580px;
 	width: 100%;
 	background-image: url("../img/iphone-x.jpeg");
 	background-repeat: no-repeat;
@@ -51,23 +54,62 @@ section {
 	padding-top: 10%;
 }
 
-/*iPhone X heading*/
-#iphone-x h1 {
+/* Notice how using a class to style two similar sections is used here, below. The iPhone X and iPad text have the same styling, so why not use one class for both sections!?!*/
+
+/*Hheading for iPhone X and iPad*/
+.section-info h1 {
 	font-size: 55px;
 	font-weight: 600;
 }
 
-/* The learn more and Buy links under iPhone X*/
-#iphone-x a {
+/* The learn more and Buy links under iPhone X and iPad*/
+.section-info a {
 	font-size: 20px;
 	margin: 10px;
 	font-weight: 300;
 }
 
-#iphone-x a i {
+/* The little > arrows next to the a links*/
+.section-info a i {
 	font-size: 15px;
 	padding-left: 5px;
 }
+
+/*************** End of iPhone X Section **************/
+
+
+
+
+/*************** iPad Section ************************/
+
+/* The ipad section element*/
+#ipad {
+	background-color: rgba(245, 245, 245);
+	padding-top: 4%;
+}
+
+/*The image of the ipad with the Apple pencil*/
+#ipad img {
+	position: relative;
+	top: 30px;
+	width: 80%;
+	height: 60%;
+}
+
+
+/*************** End of iPad Section ************************/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
