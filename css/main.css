@@ -17,7 +17,7 @@ ul {
 	display: block;
 	margin: auto;
 	height: 100%;
-	padding: .9%;
+	padding: .8%;
 }
 
 /* The words and icons in the list (<li>) in the Black Nav Bar */
@@ -27,7 +27,14 @@ ul li {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 200;
-	margin: 0px 3%;
+	margin: 0px 2.5%;
+	transition: all .15s ease-in;
+	padding: 6px;
+}
+
+nav ul li:hover {
+	cursor: pointer;
+	opacity: .65;
 }
 
 /* The icons in the Navbar*/
@@ -38,7 +45,6 @@ ul li i {
 /* This will Apply to any element of <section>, it applies to EVERY <section> element*/
 section {
 	text-align: center;
-	height: 580px;
 	margin-bottom: 15px;
 }
 
@@ -47,6 +53,7 @@ section {
 /* The first section with the iphone x*/
 #iphone-x {
 	width: 100%;
+	height: 580px;
 	background-image: url("../img/iphone-x.jpeg");
 	background-repeat: no-repeat;
 	/*The :cover;  will make it so your image takes up wthe full space of its parent element (section) */
@@ -95,6 +102,7 @@ section {
 #ipad {
 	background-color: rgba(245, 245, 245);
 	padding-top: 4%;
+	height: 580px;
 }
 
 /*The image of the ipad with the Apple pencil*/
@@ -116,6 +124,7 @@ section {
 #macbookpro {
 	background-color: rgba(19, 18, 24);
 	padding-top: 4%;
+	height: 580px;
 }
 
 /*The image of the ipad with the Apple pencil*/
@@ -138,14 +147,49 @@ section {
 	color: #fff;
 }
 
+/*************** End MacBook Pro Section ************************/
+
+
+/************** Red Cross Section *********************/
+
+#red-cross {
+	height: 202px;
+	padding: 5%;
+	margin-top: 15px
+	background-color: #fafafa;
+}
+
+#red-cross h1 {
+	display: inline-block;
+	padding-left: 1%;
+	font-size: 24px;
+	font-weight: 600;
+	color: rgb(110, 109, 114);
+}
+
+#red-cross img {
+	height: 65px;
+	width: 65px;
+}
+
+#red-cross a {
+	display: block;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#red-cross a i {
+	font-size: 15px;
+	padding-left: 5px;
+}
 
 
 
-/*************** MacBook Pro Section ************************/
 
 
 
-
+/************** End Red Cross Section *********************/
 
 
 
