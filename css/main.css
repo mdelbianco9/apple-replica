@@ -1,6 +1,6 @@
 
 
-
+/*Black Nav bar*/
 nav {
 	height: 48px;
 	width: 100%;
@@ -9,6 +9,7 @@ nav {
 	text-align: center;
 }
 
+/*The list in the black Nav Bar*/
 ul {
 	/*border: 1px solid yellow;*/
 	display: block;
@@ -17,6 +18,7 @@ ul {
 	padding: .9%;
 }
 
+/* The words and icons in the list in the Black Nav Bar */
 ul li {
 	/*border: 1px solid red;*/
 	display: inline;
@@ -26,6 +28,51 @@ ul li {
 	margin: 0px 3%;
 }
 
+/* The icons in the Navbar*/
 ul li i {
 	font-size: 23px;
 }
+
+section {
+	text-align: center;
+}
+
+/* The first section with the iphone x*/
+#iphone-x {
+	height: 580px;
+	width: 100%;
+	background-image: url("../img/iphone-x.jpeg");
+	background-repeat: no-repeat;
+	/*The :cover;  will make it so your image takes up wthe full space of its parent element (section) */
+	background-size: cover;
+	background-color: rgba(242, 242, 242);
+	/*This property, psitions the image within the section element so you can adjust its position*/
+	background-position: 50% 23%;
+	padding-top: 10%;
+}
+
+/*iPhone X heading*/
+#iphone-x h1 {
+	font-size: 55px;
+	font-weight: 600;
+}
+
+/* The learn more and Buy links under iPhone X*/
+#iphone-x a {
+	font-size: 20px;
+	margin: 10px;
+	font-weight: 300;
+}
+
+#iphone-x a i {
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+
+
+
+
+
+
+
