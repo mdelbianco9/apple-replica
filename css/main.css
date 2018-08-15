@@ -155,8 +155,9 @@ section {
 #red-cross {
 	height: 202px;
 	padding: 5%;
-	margin-top: 15px
-	background-color: #fafafa;
+	margin-top: 15px;
+	background-color: rgba(250, 250, 250);
+	margin-bottom: 7px;
 }
 
 #red-cross h1 {
@@ -185,15 +186,81 @@ section {
 }
 
 
-
-
-
-
 /************** End Red Cross Section *********************/
 
 
 
+/********** Split screen Section with 6 sections **************/
 
+main {
+	padding: 5px;
+	text-align: center;
+}
+
+.item-box {
+	text-align: center;
+	width: 49%;
+	height: 580px;
+	margin: 3px;
+	display: inline-block;
+	padding-top: 3%;
+	/*border: 2px solid black;*/
+
+}
+
+/** First Box (back to school) **/
+
+/* Back to school (Turn up summer*/
+.box-1 {
+	background-color: rgba(249, 249, 249);
+}
+
+/*Image in back to school boc (Turn up summer)*/
+#backtoschool {
+	width: 100%;
+	height: 79%;
+}
+
+/** End of First Box **/
+
+
+
+
+/** Second Box (behind the mac) **/
+
+/* Second Box*/
+.box-2 {
+	background-image: url("../img/behind-the-mac.jpg");
+	background-size: cover;
+	background-position: center;
+	vertical-align: top;
+	
+}
+
+.box-2-content {
+	position: relative;
+	top: 410px;
+}
+
+.box-2-content h1 {
+	color: #fff;
+}
+
+.box-2-content a {
+	color: #fff;
+	margin-right: 15px;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.box-2-content i {
+	font-size: 14px;
+}
+
+/** End of Second Box (behind the mac) **/
+
+
+/********** End Split screen Section with 6 sections **************/
 
 
 
